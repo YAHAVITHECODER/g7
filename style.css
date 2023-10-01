@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(151, 82, 82);
+}
+
+h1{
+    color: rgb(151, 82, 82);
+    background-color: wheat;
+}
+
+#show_Sketch
+{
+    float: right;
+    border-color: wheat;
+    border-top-width: 2;
+    color: #632d2d;
+    background-color: rgb(151, 82, 82);
+}
+
+#cc
+{
+    background-color: #f5deb3;
+    color: rgb(151, 82, 82);;
+}
+
+label
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+canvas
+{
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from {box-shadow: 1px 1px 38px wheat;}
+}
